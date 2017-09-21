@@ -16,3 +16,8 @@ describe('without', function(){
     assert.equal(3, arrResult[1]);
   });
 });
+describe('plus', function(){
+  it('should be 4', function(){
+    assert.equal(4, 2+2);
+  });
+});
